@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: b0235cccbd091894da81a17fb4e4ec8d
+timeCreated: 1521643880
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Nobile
+  fontNames:
+  - Nobile
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3a1be354cd99e6a4bb9d570c539ec520, type: 3}
+  - {fileID: 12800000, guid: 5201734708195724bbee90db6374e4e6, type: 3}
+  - {fileID: 12800000, guid: 6f77061a70a89244ba25472111223263, type: 3}
+  - {fileID: 12800000, guid: 23a7906a22ec7c74e8b3f5bc27b173ba, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
