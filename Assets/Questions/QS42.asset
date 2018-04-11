@@ -9,13 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
-  m_Name: QS7
+  m_Name: QS42
   m_EditorClassIdentifier: 
-  Question: What is the only object in the universe known to harbor life?
-  AnswerA: Earth
-  AnswerB: Sun
-  AnswerC: Jupiter
-  AnswerD: Venus
-  trivia: Earth formed over 4.5 billion years ago.
-  CorrectAnswerIndex: 1
+  Question: An instrument to measure temperature is called?
+  AnswerA: Weighing Scale
+  AnswerB: Thermometer
+  AnswerC: Ruler
+  AnswerD: Richter Scale
+  trivia: One type of thermometer is a narrow, concealed glass tube containing mercury
+    or alcohol which extends along the tube as it expands.
+  CorrectAnswerIndex: 2
   points: 10
