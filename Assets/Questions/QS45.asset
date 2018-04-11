@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
+  m_Name: QS45
+  m_EditorClassIdentifier: 
+  Question: Which component of soil is made up of previously living materials?
+  AnswerA: Organic Matter
+  AnswerB: Matter
+  AnswerC: Rock
+  AnswerD: Air
+  trivia: Organic Matter is matter that has come from a recently living organism.
+    It is capable of decay, or the products of decay; or is composed of organic compounds.
+  CorrectAnswerIndex: 1
+  points: 10

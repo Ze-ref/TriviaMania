@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
+  m_Name: QS47
+  m_EditorClassIdentifier: 
+  Question: What are the tiny tubes called inside the stem that bring water from the
+    roots to the rest of the plant?
+  AnswerA: Fiber
+  AnswerB: Xylem
+  AnswerC: Pollen
+  AnswerD: Dust
+  trivia: Xylems are little straws in the stem that carry water from the roots to
+    the rest of the plant.
+  CorrectAnswerIndex: 2
+  points: 10

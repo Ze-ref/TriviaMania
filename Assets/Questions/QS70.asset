@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
+  m_Name: QS70
+  m_EditorClassIdentifier: 
+  Question: How many planets are in the Solar System?
+  AnswerA: 9
+  AnswerB: 8
+  AnswerC: 6
+  AnswerD: 10
+  trivia: 'There are currently 8 planets in our Solar System: Mercury, Venus, Earth,
+    Mars, Jupiter, Saturn, Uranus, and Neptune. Pluto was changed to a dwarf planet
+    in 2006.'
+  CorrectAnswerIndex: 2
+  points: 10
