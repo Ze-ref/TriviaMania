@@ -9,14 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
-  m_Name: Q_10
+  m_Name: Qhekasi8
   m_EditorClassIdentifier: 
-  Question: What is the fastest water animal?
-  AnswerA: Porpoise
-  AnswerB: Sailfish
-  AnswerC: Flying fish
-  AnswerD: Tuna
-  trivia: The sailfish is the fastest water animal, reaching speed up to 68 miles
-    per hour.
-  CorrectAnswerIndex: 2
+  Question: Ito ay patag na lupa sa pagitan ng mga mataas na anyong lupa.
+  AnswerA: Lambak
+  AnswerB: Bukid
+  AnswerC: Bulubundukin
+  AnswerD: Wala sa nabanggit
+  trivia: Ang Lambak ng Cagayan ay isang rehiyon sa Pilipinas at tinatawag ding Rehiyon
+    II.
+  CorrectAnswerIndex: 1
   points: 10

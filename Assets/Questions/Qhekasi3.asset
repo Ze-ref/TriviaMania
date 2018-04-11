@@ -9,14 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
-  m_Name: Q_8
+  m_Name: Qhekasi3
   m_EditorClassIdentifier: 
-  Question: What are female elephants called?
-  AnswerA: Mares
-  AnswerB: Sows
-  AnswerC: Cows
-  AnswerD: Dams
-  trivia: Female elephants are called cows. Males are called bulls. And the babies
-    are called calves
+  Question: "10.\tMalawak at patag ang lupain na ito."
+  AnswerA: Daan
+  AnswerB: Bukid
+  AnswerC: Kapatagan
+  AnswerD: Bundok
+  trivia: Binubuo ang tanawin  ng mga subtripikal na mga kapatagan hanggan sa mga
+    kataasan ng Himalaya na higit sa pitong libong metro.
   CorrectAnswerIndex: 3
   points: 10

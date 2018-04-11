@@ -9,14 +9,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
-  m_Name: Q_1
+  m_Name: QHekasi1
   m_EditorClassIdentifier: 
-  Question: What is the fastest water animal?
-  AnswerA: Porpoise
-  AnswerB: Sailfish
-  AnswerC: Flying fish
-  AnswerD: Tuna
-  trivia: The sailfish is the fastest water animal, reaching speed up to 68 miles
-    per hour.
+  Question: Ito ay Anyong tubig na nagmumula sa mga bundok, umaagos patungo sa kapatagan,
+    at humahantong sa dagat.
+  AnswerA: Dagat
+  AnswerB: Ilog
+  AnswerC: Balon
+  AnswerD: Wala sa nabanggit
+  trivia: "Tinatawag ang Mesipotamia na \u201CLand Between Two Rivers\u201D dahil
+    pinapaligiran nito ng dalawang malaking ilog na Tigris at Euphrates."
   CorrectAnswerIndex: 2
   points: 10

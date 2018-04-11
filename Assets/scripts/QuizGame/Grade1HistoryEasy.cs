@@ -18,6 +18,7 @@ public class Grade1HistoryEasy :  MonoBehaviour {
 	[Header("Trivia elements")]
 	public RectTransform TriviaPanel;
 	public Text TriviaText;
+	public Text CorrectAnswerText;
 	
 	[Header("Quit Elements")]
 	public RectTransform VerifyPanel;
@@ -153,7 +154,7 @@ public class Grade1HistoryEasy :  MonoBehaviour {
 		// Add points to player
 		score += 10;
 		PointsText.text = "Score: " + score;
-
+			CorrectAnswerText.text = "Correct!";
 		// Update points
 
 		ShowTrivia();
@@ -167,7 +168,7 @@ public class Grade1HistoryEasy :  MonoBehaviour {
 	private void False() {
 		NextQuestionButton.gameObject.SetActive(true);
 		EndGameButton.gameObject.SetActive(false);
-
+			CorrectAnswerText.text = "Wrong!";
 		ShowTrivia();
 
 		EndQuestion();
@@ -179,7 +180,7 @@ public class Grade1HistoryEasy :  MonoBehaviour {
 	/// </summary>
 	private void ShowTrivia() {
 		QuestionPanel.gameObject.SetActive(false);
-
+		
 		TriviaText.text = ActiveQuestion.trivia;
 		TriviaPanel.gameObject.SetActive(true);
 	}

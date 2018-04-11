@@ -9,13 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
-  m_Name: QS7
+  m_Name: qsci7
   m_EditorClassIdentifier: 
-  Question: Question text
-  AnswerA: 
-  AnswerB: 
-  AnswerC: 
-  AnswerD: 
-  trivia: 
-  CorrectAnswerIndex: 0
+  Question: What are female elephants called?
+  AnswerA: Mares
+  AnswerB: Sows
+  AnswerC: Cows
+  AnswerD: Dams
+  trivia: Female elephants are called cows. Males are called bulls. And the babies
+    are called calves
+  CorrectAnswerIndex: 3
   points: 10

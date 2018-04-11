@@ -9,14 +9,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
-  m_Name: Q_Editor
+  m_Name: Qhekasi4
   m_EditorClassIdentifier: 
-  Question: Which of the following dogs is the smallest?
-  AnswerA: Dachshund
-  AnswerB: Poodle
-  AnswerC: Pomeranian
-  AnswerD: Chihuahua
-  trivia: he smallest dog breed belongs to the chihuhua, who cannot weigh more than
-    six pounds according to the American Kennel Club.
+  Question: Ito ay karugtong ng karagatan at bahagyang napapaligiran ng lupa.
+  AnswerA: Ilog
+  AnswerB: Falls
+  AnswerC: Balon
+  AnswerD: Dagat
+  trivia: Ang dagat Galilee ay isang maliit na lawang tabang na may likas na lagusan.
   CorrectAnswerIndex: 4
   points: 10

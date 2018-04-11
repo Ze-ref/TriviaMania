@@ -9,14 +9,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
-  m_Name: Q_3
+  m_Name: QH2
   m_EditorClassIdentifier: 
-  Question: Which of the following dogs is the smallest?
-  AnswerA: Dachshund
-  AnswerB: Poodle
-  AnswerC: Pomeranian
-  AnswerD: Chihuahua
-  trivia: The smallest dog breed belongs to the chihuhua, who cannot weigh more than
-    six pounds according to the American Kennel Club.
-  CorrectAnswerIndex: 4
+  Question: Ano ang tawag sa pangkat ng mga pulo sa katimugang bahagi ng Pilipinas?
+  AnswerA: Visayas
+  AnswerB: Mindanao
+  AnswerC: Luzon
+  AnswerD: Wala sa nabanggit
+  trivia: Ang pinakamalaking lungsod sa Mindanao ay ang Lungsod ng Davao.
+  CorrectAnswerIndex: 2
   points: 10

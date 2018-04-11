@@ -9,13 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
-  m_Name: Q_-
+  m_Name: Qhekasi2
   m_EditorClassIdentifier: 
-  Question: What color are zebras?
-  AnswerA: White with black stripes
-  AnswerB: Black with white stripes
-  AnswerC: Both of the above
-  AnswerD: None of the above
-  trivia: Zebras have a black base with white stripes
-  CorrectAnswerIndex: 2
+  Question: Ito ay isang mataas na anyong lupa na may bungangang nagbubuga ng lava.
+  AnswerA: Bukid
+  AnswerB: Patag
+  AnswerC: Bulkan
+  AnswerD: Bundok
+  trivia: Bulkang Mayon ay higit 50 beses nang pumutok sa loob ng 400 taon, at ito
+    ang tinaguriang pinaka-aktibong bulkan sa bansa.
+  CorrectAnswerIndex: 3
   points: 10
