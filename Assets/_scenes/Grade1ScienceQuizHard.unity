@@ -635,6 +635,7 @@ MonoBehaviour:
   TriviaUI: {fileID: 110826141}
   ScoreUI: {fileID: 1379717785}
   GameOverScoreText: {fileID: 964283001}
+  GameOverUsernameText: {fileID: 1945345487}
   GameOverUI: {fileID: 2065241430}
   VerifyPanel: {fileID: 1069732035}
   TimerText: {fileID: 852192393}
@@ -644,13 +645,17 @@ MonoBehaviour:
   - What gives us heat and light?
   - What is the smallest planet in our solar system?
   - What is the biggest planet in our solar system?
-  - is the fourth planet in our solar system?
-  - planet has the shortest year in the solar system?
-  - planet has the longest day in the solar system?
+  - What is the fourth planet in our solar system?
+  - Planet has the shortest year in the solar system?
+  - Planet has the longest day in the solar system?
   - Do stars die? Yes or No.
   - What is the hottest planet in our solar system?
   - What is the coldest planet in our solar system?
   - What is the fastest planet in our solar system?
+  - What is the slowest fish?
+  - What is the fastest animal on earth?
+  - What is the most dangerous fish in the river?
+  - What is the loudest insect in the world?
   Answer:
   - Sun
   - Mercury
@@ -662,8 +667,12 @@ MonoBehaviour:
   - Venus
   - Neptune
   - Jupiter
+  - Seahorse
+  - Cheetah
+  - Piranha
+  - Grasshopper
   Trivia:
-  - is the Center of the Solar System.
+  - Is the Center of the Solar System.
   - It has a diameter of 4,879 km
   - It has diameter of 139,822 km
   - "It is called the \u201CRed planet\u201D"
@@ -676,6 +685,12 @@ MonoBehaviour:
   - It has an average temperature of -214 Celsius (-353 Fahrenheit).
   - It is the fastest rotating planet and can complete one revolution in less than
     ten hours.
+  - The dwarf seahorse swims at about 0.01 mph, making it the slowest fish in the
+    world.
+  - It has a recorded speed of 109.4~120.7 km/h (68.0~75.0 mph).
+  - Legend has it that piranhas gather in predatory shoals and can strip human beings
+    to the bone and eat them alive.
+  - The evocative song of the cicada grasshoper is one of nature's great sounds.
 --- !u!1 &445978436
 GameObject:
   m_ObjectHideFlags: 0
@@ -830,7 +845,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000010014, y: 3.2}
+  m_AnchoredPosition: {x: 0.000010014, y: -32}
   m_SizeDelta: {x: 160, y: 106.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &478797302
@@ -1733,7 +1748,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -80}
+  m_AnchoredPosition: {x: 0, y: -97}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &964283001
@@ -2515,8 +2530,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -1.2, y: 0.6}
+  m_SizeDelta: {x: 815.6, y: 157.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1607436589
 MonoBehaviour:
@@ -2547,7 +2562,7 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 0
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Question
@@ -2779,6 +2794,80 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1879173258}
+--- !u!1 &1945345486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1945345489}
+  - component: {fileID: 1945345488}
+  - component: {fileID: 1945345487}
+  m_Layer: 5
+  m_Name: gameoverui
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1945345487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1945345486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: cb61038755b3a1f46a19a00ce50ef063, type: 3}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: Murillo got a
+--- !u!222 &1945345488
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1945345486}
+--- !u!224 &1945345489
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1945345486}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2065241430}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 26}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1950228781
 GameObject:
   m_ObjectHideFlags: 0
@@ -3070,6 +3159,7 @@ RectTransform:
   - {fileID: 940009416}
   - {fileID: 964283000}
   - {fileID: 478797301}
+  - {fileID: 1945345489}
   m_Father: {fileID: 65862904}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

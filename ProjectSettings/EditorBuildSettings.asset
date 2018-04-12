@@ -17,25 +17,49 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_scenes/Grade1ScienceQuizEasy.unity
     guid: 9395fac40447f284c98c2b3a3843a6cf
-  - enabled: 1
+  - enabled: 0
     path: Assets/_scenes/Grade1English.unity
     guid: d586fbdfa9780df4f819af9ccc524f96
   - enabled: 1
+    path: Assets/_scenes/TimeAttackInstruction.unity
+    guid: 8f35609f563414f4089cb4e5bc9607f5
+  - enabled: 1
     path: Assets/_scenes/Instruction.unity
     guid: 8d0673b09b805c546b23c8ad9ec9e913
-  - enabled: 1
+  - enabled: 0
     path: Assets/_scenes/Grade1EnglishQuizHard.unity
     guid: 5c55dc6481e9e9a4dac5fdddb6dc6ba4
   - enabled: 1
     path: Assets/_scenes/Grade1HistoryQuizHard.unity
     guid: 4fe32d120751fed4ca6e229361b3efb7
   - enabled: 1
+    path: Assets/_scenes/Grade2HistoryQuizEasy.unity
+    guid: 09dd70df69bcda7479ff63393a298a88
+  - enabled: 1
+    path: Assets/_scenes/Grade2HistoryQuizHard.unity
+    guid: ad253df9dafd167408bf312b359109f9
+  - enabled: 1
+    path: Assets/_scenes/Grade2ScienceQuizEasy.unity
+    guid: 8c21a88eb5237ba408ae182644f7634c
+  - enabled: 1
+    path: Assets/_scenes/Grade2ScienceQuizHard.unity
+    guid: f54bf714671d0e54a8973b53cce84369
+  - enabled: 1
+    path: Assets/_scenes/Grade3HistoryQuizEasy.unity
+    guid: f8972266d48c9774285f7bd8fea53a78
+  - enabled: 1
+    path: Assets/_scenes/Grade3HistoryQuizHard.unity
+    guid: 1a4e466889387c44bbdfcd69c14b3a0b
+  - enabled: 1
+    path: Assets/_scenes/Grade3ScienceQuizHard.unity
+    guid: fd1ae2d3e0a96df4d865a8a4357b0a21
+  - enabled: 1
     path: Assets/_scenes/Grade2.unity
     guid: 4e82b801c6b492e4b8466845628bc645
-  - enabled: 1
+  - enabled: 0
     path: Assets/_scenes/Grade2EnglishQuizEasy.unity
     guid: e2ba02f6e239faa48aea8ff3adfcc8d4
-  - enabled: 1
+  - enabled: 0
     path: Assets/_scenes/Grade3English.unity
     guid: 5abf1c859d2c84a4aaa9ba7564dca986
   - enabled: 1
@@ -44,13 +68,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_scenes/Grade3Science.unity
     guid: 9a587a2142ac9484c863ba87c4ff94ee
-  - enabled: 1
+  - enabled: 0
     path: Assets/_scenes/Grade2English.unity
     guid: 93c97be344e6f5e4391567e321651ea3
   - enabled: 1
     path: Assets/_scenes/Grade2History.unity
     guid: 34cb9a1a0d2815e41a086fecd9a16255
-  - enabled: 1
+  - enabled: 0
     path: Assets/_scenes/Grade1EnglishQuizEasy.unity
     guid: b3ab66b8bd3db0e45b64b4606ceed656
   - enabled: 1

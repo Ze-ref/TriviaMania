@@ -14,6 +14,7 @@ namespace QuizGame {
 		public Text TriviaUI;
 		public Text ScoreUI;
 		public Text GameOverScoreText;
+		public Text GameOverUsernameText;
 
 		public RectTransform GameOverUI;
 		public RectTransform VerifyPanel;
@@ -101,6 +102,7 @@ namespace QuizGame {
 			TriviaUI.text = "Trivia will show here";
 
 			CheckedTheAnswer = false;// prepare for next repose
+		
 
 		}
 
@@ -132,7 +134,8 @@ namespace QuizGame {
 
 		public void GameOver() {
 			GameOverUI.gameObject.SetActive (true);
-			GameOverScoreText.text = Score.ToString();
+			GameOverScoreText.text = "of " + Score;
+			GameOverUsernameText.text = PlayerPrefs.GetString("Username") + " you got a";
 			ResetScore ();
 
 
@@ -144,7 +147,7 @@ namespace QuizGame {
 		void GetNewRandomNumber(){
 			ActiveQuestion = Mathf.FloorToInt(UnityEngine.Random.Range(0, Question.Count -1));
 
-			if((Question.Count) < 1  || (Question.Count) < 6){
+			if((Question.Count) < 1  || (Question.Count) < 5){
 				GameOver ();
 			}
 

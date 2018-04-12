@@ -30,6 +30,7 @@ public class Grade1HistoryEasy :  MonoBehaviour {
 	[Header("Game Over Element")]
 	public RectTransform GameOverButton;
 	public Text GameOverPoints;
+	public Text GameOverName;
 	public bool timerPaused;
 
 	[Header("User elements")]
@@ -92,6 +93,7 @@ public class Grade1HistoryEasy :  MonoBehaviour {
 				// Check if time expired
 				if (RemainingTime <= 0f) {
 					EndQuestion();
+					CorrectAnswerText.text = "You run out of time!";
 				}
 			}
 		}
@@ -180,7 +182,7 @@ public class Grade1HistoryEasy :  MonoBehaviour {
 	/// </summary>
 	private void ShowTrivia() {
 		QuestionPanel.gameObject.SetActive(false);
-		
+	
 		TriviaText.text = ActiveQuestion.trivia;
 		TriviaPanel.gameObject.SetActive(true);
 	}
@@ -197,7 +199,8 @@ public class Grade1HistoryEasy :  MonoBehaviour {
 
 	public void GameOver() {
 			GameOverButton.gameObject.SetActive (true);
-			GameOverPoints.text = score.ToString();
+			GameOverPoints.text = "of " + score;
+			GameOverName.text = PlayerPrefs.GetString ("Username") + " you got a";
 
 	}
 

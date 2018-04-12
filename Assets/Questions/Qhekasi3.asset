@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
   m_Name: Qhekasi3
   m_EditorClassIdentifier: 
-  Question: "10.\tMalawak at patag ang lupain na ito."
+  Question: Malawak at patag ang lupain na ito.
   AnswerA: Daan
   AnswerB: Bukid
   AnswerC: Kapatagan
