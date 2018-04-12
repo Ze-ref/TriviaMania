@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
+  m_Name: QH27
+  m_EditorClassIdentifier: 
+  Question: What region in the Philippines is designated as region IV-B?
+  AnswerA: MIMAROPA
+  AnswerB: Caraga
+  AnswerC: Cagayan Valley
+  AnswerD: Calabarzon
+  trivia: The Southwestern Tagalog Region, officially designated as MIMAROPA Region,
+    is an administrative region in the Philippines. It was also formerly designated
+    as Region IV-B
+  CorrectAnswerIndex: 1
+  points: 10

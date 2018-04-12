@@ -9,14 +9,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
-  m_Name: QH26
+  m_Name: QH36
   m_EditorClassIdentifier: 
-  Question: Caraga is designated as what Region in the Philippines?
-  AnswerA: Region V
-  AnswerB: Region X
-  AnswerC: Region III
-  AnswerD: Region XIII
-  trivia: 'Caraga, officially known as the Caraga Administrative Region or simply
-    Caraga Region and designated as Region XIII. '
-  CorrectAnswerIndex: 3
+  Question: Philippines City of smile?
+  AnswerA: Iloilo
+  AnswerB: Bacolod
+  AnswerC: Aklan
+  AnswerD: Leyte
+  trivia: Bacolod, These smiles symbolizes the positive outlook of the people to face
+    all the adversities and crisis in life. These show how uplift each others spirit
+    especially during hard times.
+  CorrectAnswerIndex: 2
   points: 10
