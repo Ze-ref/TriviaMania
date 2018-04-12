@@ -11,6 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
   m_Name: QS75
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   Question: Who is the greatest scientist of all time?
   AnswerA: Albert Einstein
   AnswerB: Isaac Newton
@@ -19,4 +20,13 @@ MonoBehaviour:
   trivia: Newton was a polymath who made investigations into a whole range of subjects
     including mathematics, optics, physics, and astronomy.
   CorrectAnswerIndex: 2
+=======
+  Question: What do you call a young Goat?
+  AnswerA: Boxer
+  AnswerB: Hen
+  AnswerC: Fowl
+  AnswerD: Kid
+  trivia: A young Goat is called Kid.
+  CorrectAnswerIndex: 4
+>>>>>>> ceff8a3ad716c757571a4ac1fe4a50159efaad8f
   points: 10
