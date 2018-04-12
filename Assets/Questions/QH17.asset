@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
+  m_Name: QH17
+  m_EditorClassIdentifier: 
+  Question: Who gave the name of the Philippines?
+  AnswerA: Lapu-lapu
+  AnswerB: Jose Rizal
+  AnswerC: Ferdinand Magellan
+  AnswerD: Ruy Lopez De Villalobus
+  trivia: Villalobos gave the Philippines their name, after calling them Las Islas
+    Filipinas in honor of Philip of Austria, the Prince of Asturias at the time, who
+    later became Philip II of Spain.
+  CorrectAnswerIndex: 4
+  points: 10

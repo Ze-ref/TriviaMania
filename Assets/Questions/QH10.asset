@@ -9,13 +9,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
-  m_Name: QS96
+  m_Name: QH10
   m_EditorClassIdentifier: 
-  Question: What do you call a young Butterfly?
-  AnswerA: Caterpillar
-  AnswerB: Cocoon
-  AnswerC: Larvae
-  AnswerD: Moth
-  trivia: A young Butterfly is called Caterpillar.
+  Question: A Filipino legend which is the first man and women  were born from a bamboo
+    stalk?
+  AnswerA: Malakas at Maganda
+  AnswerB: Ibong adarna
+  AnswerC: Biag ni Lam-ang
+  AnswerD: Bagani
+  trivia: ' They both had brown skin and supple bodies. The man was named Malakas,
+    or "Strong One"; the woman, Maganda, or the "Beautiful One." '
   CorrectAnswerIndex: 1
   points: 10

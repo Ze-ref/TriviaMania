@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
+  m_Name: QH19
+  m_EditorClassIdentifier: 
+  Question: Indigenous people who live in scattered, isolated mountainous parts of
+    the island of Luzon, the Philippines.?
+  AnswerA: Aeta
+  AnswerB: Malay
+  AnswerC: Chinese
+  AnswerD: Indian
+  trivia: Aeta, these people are considered to be Negritos, whose skin ranges from
+    dark to very dark brown, and possessing features such as a small stature and frame;
+    hair of a curly to kinky texture and a higher frequency of naturally lighter colour.
+  CorrectAnswerIndex: 1
+  points: 10

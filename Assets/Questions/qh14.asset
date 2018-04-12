@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
+  m_Name: qh14
+  m_EditorClassIdentifier: 
+  Question: free people who paid tribute to the datu constituted the second class
+    in Tagalog and Visayan societies?
+  AnswerA: Timawa
+  AnswerB: Datu
+  AnswerC: Maharlika
+  AnswerD: Alipin
+  trivia: 'Timawa free people who paid tribute to the datu constituted the second
+    class in Tagalog and Visayan societies. they were engaged in: trade, iron working,
+    farming, fishing, pottery, basket making, weaving, boat building and other economic
+    activities'
+  CorrectAnswerIndex: 1
+  points: 10
