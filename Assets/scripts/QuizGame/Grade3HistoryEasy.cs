@@ -158,7 +158,7 @@ namespace QuizGame {
 			// Add points to player
 			score += 10;
 			PointsText.text = "Score: " + score;
-			CorrecAnswerText.text = "Correct!";
+			CorrecAnswerText.text = "<color=green>Correct!</color>";
 			// Update points
 
 			ShowTrivia();
@@ -172,7 +172,7 @@ namespace QuizGame {
 		private void False() {
 			NextQuestionButton.gameObject.SetActive(true);
 			EndGameButton.gameObject.SetActive(false);
-			CorrecAnswerText.text = "Wrong!";
+			CorrecAnswerText.text = "<color=green>Wrong!</color>";
 			ShowTrivia();
 
 			EndQuestion();

@@ -156,7 +156,7 @@ public class Grade1HistoryEasy :  MonoBehaviour {
 		// Add points to player
 		score += 10;
 		PointsText.text = "Score: " + score;
-			CorrectAnswerText.text = "Correct!";
+			CorrectAnswerText.text = "<color=green>Correct!</color>";
 		// Update points
 
 		ShowTrivia();
@@ -170,7 +170,7 @@ public class Grade1HistoryEasy :  MonoBehaviour {
 	private void False() {
 		NextQuestionButton.gameObject.SetActive(true);
 		EndGameButton.gameObject.SetActive(false);
-			CorrectAnswerText.text = "Wrong!";
+			CorrectAnswerText.text = "<color=green>Wrong!</color>";
 		ShowTrivia();
 
 		EndQuestion();

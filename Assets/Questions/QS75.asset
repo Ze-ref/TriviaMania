@@ -9,13 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
-  m_Name: Q_ENGLISH_GRADE1_EASY#2
+  m_Name: QS75
   m_EditorClassIdentifier: 
-  Question: What was the word verb descrives?
-  AnswerA: Action
-  AnswerB: Synonyms
-  AnswerC: Antonyms
-  AnswerD: Spelling
-  trivia: Verb is a word used to describe action.
-  CorrectAnswerIndex: 0
+  Question: Who is the greatest scientist of all time?
+  AnswerA: Albert Einstein
+  AnswerB: Isaac Newton
+  AnswerC: Charles Darwin
+  AnswerD: Michael Faraday
+  trivia: Newton was a polymath who made investigations into a whole range of subjects
+    including mathematics, optics, physics, and astronomy.
+  CorrectAnswerIndex: 2
   points: 10

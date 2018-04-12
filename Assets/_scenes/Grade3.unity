@@ -138,10 +138,10 @@ RectTransform:
   m_Father: {fileID: 1614752844}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.8247938, y: 0.06435009}
-  m_AnchorMax: {x: 0.8247938, y: 0.06435009}
-  m_AnchoredPosition: {x: -66, y: 27}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchorMin: {x: 0.6536893, y: 0.027649919}
+  m_AnchorMax: {x: 0.97468936, y: 0.12632497}
+  m_AnchoredPosition: {x: 1.800003, y: -0.39999962}
+  m_SizeDelta: {x: 3.600006, y: 10.900002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &41884126
 MonoBehaviour:
@@ -579,7 +579,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: gradeLvl
+          m_StringArgument: GradeLevel
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,

@@ -175,8 +175,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\t\t* Time Attack is a type of multiple choice quiz game.\n\t\t\n\t\t*
-    You need to answer as many questions as you can in a limited time(60sec) ."
+  m_Text: "\t\t* Time Attack is a multiple choice type of quiz.\n\t\t\n\t\t* You need
+    to answer as many questions as you can in a limited time(60sec) ."
 --- !u!222 &867382766
 CanvasRenderer:
   m_ObjectHideFlags: 0
