@@ -9,13 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
-  m_Name: QS98
+  m_Name: Qh15
   m_EditorClassIdentifier: 
-  Question: Question text
-  AnswerA: 
-  AnswerB: 
-  AnswerC: 
-  AnswerD: 
-  trivia: 
-  CorrectAnswerIndex: 0
+  Question: Lowest class in the ancient Filipino society?
+  AnswerA: Datu
+  AnswerB: Alipin
+  AnswerC: Timawa
+  AnswerD: Maharlika
+  trivia: "Alipin\r, those who are unable to pay their debts, punished criminals and
+    illegitimate children.\r\n"
+  CorrectAnswerIndex: 2
   points: 10
