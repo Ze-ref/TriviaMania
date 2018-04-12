@@ -42,7 +42,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 11
+  serializedVersion: 9
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -54,7 +54,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 9
+    serializedVersion: 8
     m_Resolution: 2
     m_BakeResolution: 40
     m_TextureWidth: 1024
@@ -87,7 +87,7 @@ LightmapSettings:
     m_PVRFilteringAtrousNormalSigma: 1
     m_PVRFilteringAtrousPositionSigma: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_ShadowMaskMode: 2
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1527,50 +1527,67 @@ MonoBehaviour:
   timerPaused: 0
   UsernameText: {fileID: 1943914361}
   Question:
-  - water
-  - grass
-  - smoke
-  - fuel
-  - rock
-  - height
-  - weight
-  - width
-  - km
-  - meter
-  - meter
-  - meter
-  - meter
-  - meter
+  - Who was the founder of the KKK?
+  - "Which Filipino boxer is known for his nickname \u201CPac-Man\u201D"
+  - "Who said this immortal words \u201CA Filipino is worth dying for\u201D ?"
+  - Which Philippine president has an initial of MLQ?
+  - "He is regarded as the \"utak ng himagsikan\" or \"brain of the revolution\u201D "
+  - 
+  - 
+  - Which country occupied the Philppies during World War II?
+  - What is the term of the President of the Philippines?
+  - Which country had the Philippines as its colony for more than 300 years?
+  - Who are the Malay?
+  - Was Rizal a Catholic?
+  - Diariong tagalog was founded by?
+  - 'Who was the founder of the La Liga Filipina? '
   Answer:
-  - Water
-  - Grass
-  - Smoke
-  - Fuel
-  - Rock
-  - Height
-  - Weight
-  - Width
-  - Km
-  - Meter
-  - Meter
-  - Meter
-  - Meter
-  - Meter
+  - Andres Bonifacio
+  - Manny Pacquiao
+  - Ninoy Aquino
+  - Manuel L Quezon
+  - Apolinario Mabini
+  - 
+  - 
+  - Japan
+  - Six years
+  - Spain
+  - Austronesian people
+  - Yes
+  - Marcelo H del Pilar
+  - "Jos\xE9 Rizal "
   Trivia:
-  - water
-  - grass
-  - smoke
-  - fuels
-  - dasdasdasd
-  - sdasdasdasd
-  - sdasdasds
-  - asdasdasds
-  - asdasdasd
-  - asdadas
-  - asdadas
-  - asdadas
-  - asdadas
-  - asdadas
+  - "He was one of the founders and later Supremo (Supreme Leader) of the Kataas-taasan,
+    \ \tKagalanggalangang Katipunan ng mga Anak ng Bayan."
+  - "Emmanuel \"Manny\" Dapidran Pacquiao, PLH is a Filipino professional boxer and
+    politician,  \tcurrently serving as a Senator of the Philippines."
+  - "Benigno Simeon \"Ninoy\" Aquino Jr. (November 27, 1932 \u2013 August 21, 1983)
+    was the husband of former Philippine President Corazon Aquino and \t father of
+    former Philippine President Benigno Aquino III."
+  - Manual L. Quezon was a Filipino statesman, soldier, and politician who served
+    as president of the Commonwealth of the Philippines from 1935 to 1944.
+  - Mabini performed all his revolutionary and governmental activities despite having    lost
+    the use of both his legs to Polio shortly before the Philippine Revolution of
+    1896.
+  - 
+  - 
+  - Japan occupied most of current day Indonesia,  Myanmar, Cambodia, Vietnam, Laos,
+    Thailand, The Philippines, Malaysia, Singapore, much of Eastern China, Manchuria,  Korea
+    (North and South), and many thousands of small Pacific Islands.
+  - 'The President serves a single, fixed, six-year term without possibility of re-election. '
+  - "Spain has colonized the Philippines for over 300 years. It started with the arrival
+    of Magellan in 1521 and  \tlasted until 1898, in the same year when the Philippine
+    independence was declared.  "
+  - Malay is a major language of the Austronesian family spoken in Brunei, Indonesia,
+    Malaysia and Singapore
+  - 'Rizal was a Catholic when he was young and attended Catholicschools. He was excommunicated
+    when joined the Masonry.      He wroteseveral novels that questioned the Catholic
+    church.  '
+  - Del Pilar was born and brought up in Bulakan, Bulacan. At an early age, he became
+    a critic of the monastic rule in the country.
+  - "La Liga Filipina was a progressive organization created by Dr. Jos\xE9 Rizal
+    in the Philippines     in the house of Doroteo Ongjunco at Ilaya Street, Tondo,
+    Manila in 1892."
 --- !u!4 &1116196117
 Transform:
   m_ObjectHideFlags: 0
@@ -1848,10 +1865,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b0235cccbd091894da81a17fb4e4ec8d, type: 3}
-    m_FontSize: 49
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 72
     m_Alignment: 4
     m_AlignByGeometry: 1
@@ -2467,8 +2484,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -2, y: -3}
+  m_SizeDelta: {x: 448, y: 159}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1782067578
 CanvasRenderer:
@@ -2505,7 +2522,7 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 0
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Question
@@ -2930,7 +2947,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.1, y: -26}
+  m_AnchoredPosition: {x: 4.1000004, y: -26}
   m_SizeDelta: {x: 151.8, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2027800624

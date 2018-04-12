@@ -9,17 +9,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
-<<<<<<< HEAD:Assets/QS100.asset
-  m_Name: QS100
-=======
-  m_Name: QS119
->>>>>>> 7f2e98613d8ed9dc943659cad63eca3290338dff:Assets/Questions/QS119.asset
+  m_Name: QH17
   m_EditorClassIdentifier: 
-  Question: Which is gas?
-  AnswerA: Juice
-  AnswerB: Broom
-  AnswerC: Window
-  AnswerD: Helium
-  trivia: 'Helium was the first element that was not discovered on Earth. '
+  Question: Who gave the name of the Philippines?
+  AnswerA: Lapu-lapu
+  AnswerB: Jose Rizal
+  AnswerC: Ferdinand Magellan
+  AnswerD: Ruy Lopez De Villalobus
+  trivia: Villalobos gave the Philippines their name, after calling them Las Islas
+    Filipinas in honor of Philip of Austria, the Prince of Asturias at the time, who
+    later became Philip II of Spain.
   CorrectAnswerIndex: 4
   points: 10
