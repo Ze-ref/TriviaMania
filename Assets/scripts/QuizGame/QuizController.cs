@@ -19,6 +19,7 @@ namespace QuizGame {
         [Header("Trivia elements")]
         public RectTransform TriviaPanel;
         public Text TriviaText;
+		public Text CorrectAnswerText;
 
 		[Header("some")]
 		public RectTransform VerifyPanel;
@@ -31,6 +32,7 @@ namespace QuizGame {
 		[Header("Game Over Element")]
 		public RectTransform GameOverButton;
 		public Text GameOverPoints;
+		public Text GameOverUser;
 
         [Header("User elements")]
         public Text UsernameText;
@@ -92,6 +94,7 @@ namespace QuizGame {
 				// Check if time expired
 				if (RemainingTime <= 0f) {
 					EndQuestion();
+					CorrectAnswerText.text = "Time's up!";
 				}
 			}
 		}
@@ -155,7 +158,7 @@ namespace QuizGame {
             // Add points to player
 			score += 10;
 			PointsText.text = "Score: " + score;
-
+			CorrectAnswerText.text = "Correct!";
             // Update points
 
             ShowTrivia();
@@ -170,6 +173,7 @@ namespace QuizGame {
             NextQuestionButton.gameObject.SetActive(true);
             EndGameButton.gameObject.SetActive(false);
 
+			CorrectAnswerText.text = "Wrong!";
             ShowTrivia();
 
             EndQuestion();
@@ -198,7 +202,8 @@ namespace QuizGame {
 
 		public void GameOver() {
 			GameOverButton.gameObject.SetActive (true);
-			GameOverPoints.text = score.ToString();
+			GameOverPoints.text = "of " + score;
+			GameOverUser.text = PlayerPrefs.GetString("Username") + " you got a";
 		}
 		public void Exiting(){
 			VerifyPanel.gameObject.SetActive (true);

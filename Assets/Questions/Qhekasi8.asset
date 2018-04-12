@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
+  m_Name: Qhekasi8
+  m_EditorClassIdentifier: 
+  Question: Ito ay patag na lupa sa pagitan ng mga mataas na anyong lupa.
+  AnswerA: Lambak
+  AnswerB: Bukid
+  AnswerC: Bulubundukin
+  AnswerD: Palayan
+  trivia: Ang Lambak ng Cagayan ay isang rehiyon sa Pilipinas at tinatawag ding Rehiyon
+    II.
+  CorrectAnswerIndex: 1
+  points: 10

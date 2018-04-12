@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
+  m_Name: qh4
+  m_EditorClassIdentifier: 
+  Question: Ano ang reef na nakaikot sa isang Anyong Tubig na kung tawagin ay lagoon
+  AnswerA: Coral reef
+  AnswerB: Tubataha reef
+  AnswerC: Mariana Trench
+  AnswerD: Atoll
+  trivia: Ang isang bansang pulo sa karagatan ng Indya na binubuo ng mga Atoll ay
+    ang tinatawag na Kapuluan ng Maldives.
+  CorrectAnswerIndex: 4
+  points: 10
