@@ -11,11 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
   m_Name: QS92
   m_EditorClassIdentifier: 
-  Question: Question text
-  AnswerA: 
-  AnswerB: 
-  AnswerC: 
-  AnswerD: 
-  trivia: 
-  CorrectAnswerIndex: 0
+  Question: What do you call a young Duck?
+  AnswerA: Duffy
+  AnswerB: Duckling
+  AnswerC: Chicklet
+  AnswerD: Ducklet
+  trivia: A young Duck is called Duckling.
+  CorrectAnswerIndex: 2
   points: 10

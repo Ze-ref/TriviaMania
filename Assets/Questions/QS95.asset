@@ -11,11 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 408b6fdc146984147bda47f418a39123, type: 3}
   m_Name: QS95
   m_EditorClassIdentifier: 
-  Question: Question text
-  AnswerA: 
-  AnswerB: 
-  AnswerC: 
-  AnswerD: 
-  trivia: 
-  CorrectAnswerIndex: 0
+  Question: What do you call a young Frog?
+  AnswerA: Froggy
+  AnswerB: Prince
+  AnswerC: Tadpole
+  AnswerD: Froglet
+  trivia: A young Frog is called Tadpole.
+  CorrectAnswerIndex: 3
   points: 10
