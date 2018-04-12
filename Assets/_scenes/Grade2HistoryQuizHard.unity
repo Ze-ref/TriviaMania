@@ -1532,23 +1532,29 @@ MonoBehaviour:
   - "Who said this immortal words \u201CA Filipino is worth dying for\u201D ?"
   - Which Philippine president has an initial of MLQ?
   - "He is regarded as the \"utak ng himagsikan\" or \"brain of the revolution\u201D "
-  - 
-  - 
-  - Which country occupied the Philppies during World War II?
+  - He became one of the first recognized Philippine artists.
+  - The first President of the Philippine Republic.
+  - Which country occupied the Philippines during World War II?
   - What is the term of the President of the Philippines?
   - Which country had the Philippines as its colony for more than 300 years?
   - Who are the Malay?
   - Was Rizal a Catholic?
   - Diariong tagalog was founded by?
   - 'Who was the founder of the La Liga Filipina? '
+  - Hero of the Battle of Tirad Pass.
+  - Brains of the Katipunan
+  - Cofounder of La Independencia.
+  - Chieftain of Mactan who killed Magellan.
+  - Lakambini of Katipunan and Wife of Andres Bonifacio.
+  - The First Filipino Hero.
   Answer:
   - Andres Bonifacio
   - Manny Pacquiao
   - Ninoy Aquino
   - Manuel L Quezon
   - Apolinario Mabini
-  - 
-  - 
+  - Juan Luna
+  - Emilio Aguinaldo
   - Japan
   - Six years
   - Spain
@@ -1556,6 +1562,12 @@ MonoBehaviour:
   - Yes
   - Marcelo H del Pilar
   - "Jos\xE9 Rizal "
+  - 'General Gregorio del Pilar '
+  - Emilio Jacinto
+  - 'General Antonio Luna '
+  - Lapu-Lapu
+  - Gregoria de Jesus
+  - Lapu-Lapu
   Trivia:
   - "He was one of the founders and later Supremo (Supreme Leader) of the Kataas-taasan,
     \ \tKagalanggalangang Katipunan ng mga Anak ng Bayan."
@@ -1569,8 +1581,11 @@ MonoBehaviour:
   - Mabini performed all his revolutionary and governmental activities despite having    lost
     the use of both his legs to Polio shortly before the Philippine Revolution of
     1896.
-  - 
-  - 
+  - Juan Luna was a Filipino painter, sculptor and a political activist of the Philippine
+    Revolution during the late 19th century.
+  - " Emilio Aguinaldo was a Filipino revolutionary, politician, and military leader
+    who is officially recognized as  the first and the youngest President of the Philippines
+    (1899\u20131901)."
   - Japan occupied most of current day Indonesia,  Myanmar, Cambodia, Vietnam, Laos,
     Thailand, The Philippines, Malaysia, Singapore, much of Eastern China, Manchuria,  Korea
     (North and South), and many thousands of small Pacific Islands.
@@ -1588,6 +1603,19 @@ MonoBehaviour:
   - "La Liga Filipina was a progressive organization created by Dr. Jos\xE9 Rizal
     in the Philippines     in the house of Doroteo Ongjunco at Ilaya Street, Tondo,
     Manila in 1892."
+  - " Gregorio Hilario del Pilar was one of the youngest generals in the Philippine
+    Revolutionary Forces during  the Philippine Revolution and the Philippine\u2013American
+    War."
+  - 'He was one of the highest-ranking officer in the Philippine Revolution and  was
+    one of the highest-ranking officers of the revolutionary society KKK. '
+  - "General Antonio Luna was a Filipino army general who fought in the Philippine\u2013American
+    War. "
+  - 'He is best known for the Battle of Mactan that happened at dawn on April 27,
+    1521,  where he and his soldiers defeated Ferdinand Magellan.  '
+  - "Gregoria \xC1lvarez de Jes\xFAs also known as Aling Oriang, was the founder and
+    vice-president of the women's  chapter of the Katipunan of the Philippines. "
+  - ' Modern Filipino society regards him as the first Filipino hero because he was
+    the first native to resist Spanish colonization.'
 --- !u!4 &1116196117
 Transform:
   m_ObjectHideFlags: 0
